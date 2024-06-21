@@ -1,7 +1,7 @@
 import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMapEvents } from 'react-leaflet';
 import L from 'leaflet';
-import "../../node_modules/leaflet/dist/leaflet.css";
+import "../node_modules/leaflet/dist/leaflet.css";
 
 function DraggableMarker({ onLocationChange }) {
   const map = useMapEvents({

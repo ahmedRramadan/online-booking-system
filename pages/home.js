@@ -1,7 +1,7 @@
 
 import Navbar from '@/components/Navbar';
 import '../app/globals.css';
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Link from 'next/link';
 import Services from '@/components/Services';
 import Projects from '@/components/Projects';

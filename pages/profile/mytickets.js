@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import { getFirestore, collection, query, where, getDocs, doc, deleteDoc, getDoc } from 'firebase/firestore';
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../../app/globals.css';
 import Nbar from '@/components/Navbar';
 import Footer from '@/components/Footer';

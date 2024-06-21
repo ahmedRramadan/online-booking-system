@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import Image from 'next/image';
 import backgroundImg from '../public/account-bg.jpg'; 
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { auth } from '../app/utils/firebase'; 
 import { doc, setDoc } from "firebase/firestore";
 import { db } from '../app/utils/firebase';

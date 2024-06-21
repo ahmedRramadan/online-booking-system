@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import { auth, db, storage } from '../../app/utils/firebase';
 import { doc, getDoc, updateDoc, setDoc } from 'firebase/firestore';
 import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../../app/globals.css';
 import Image from 'next/image';
 import Nbar from '@/components/Navbar';

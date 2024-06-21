@@ -1,17 +1,17 @@
 import { useRouter } from 'next/router';
 import '../../app/globals.css';
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { doc, getDoc, setDoc, updateDoc, arrayUnion, getFirestore } from 'firebase/firestore';
 import React, { useEffect, useState } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay, Pagination } from 'swiper';
-import '../../../node_modules/swiper/swiper-bundle.min.css';
-import '../../../node_modules/swiper/swiper.min.css';
+import '../../node_modules/swiper/swiper-bundle.min.css';
+import '../../node_modules/swiper/swiper.min.css';
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import "../../../node_modules/leaflet/dist/leaflet.css";
+import "../../node_modules/leaflet/dist/leaflet.css";
 import dynamic from 'next/dynamic';
 import { auth, db } from '../../app/utils/firebase';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';

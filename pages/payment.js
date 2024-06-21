@@ -4,7 +4,7 @@ import axios from 'axios';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../app/globals.css';
 const Payment = () => {
   const router = useRouter();

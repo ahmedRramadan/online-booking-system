@@ -6,7 +6,7 @@ import Ticket from '@/components/Ticket';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import '../../app/globals.css';
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Nbar from '@/components/Navbar';
 
 const TicketPage = () => {
